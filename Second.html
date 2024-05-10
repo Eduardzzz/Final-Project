@@ -1,0 +1,801 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Me Up!</title>
+    <link rel="stylesheet" href="Project.css">
+  </head>
+  <body>
+
+    <div class="header">
+    <p class="heads">Light Me Up!</p>
+    <p class="cred1"></p>
+    <p class="cred2" id="final">Submit</p>
+    <p class="play" id="entern">Enter Name</p>
+    <p class="res" id="reset">Reset</p>
+    </div>
+    
+    <div class="form" id="form1">
+      <label for="one" style="font-family: arial; ">Name:</label> <br>
+      <input type="text" name="one" class="inputs1" id="namel"><br><br>
+      <button id="infob" class="buttons" onclick="subs();">Enter</button>
+      <button class="buttons" id="exitlog">back</button>
+    </div>
+  
+    <div class="grid">
+
+    <div class="design1" id="myBulb"></div>
+    <button class="design11" id="myButton">Play</button>
+    <div class="dot1"></div>
+
+    <div class="design2" id="myBulb2"></div>
+    <button class="design12" id="myButton2">Play</button>
+    <div class="dot2"></div>
+
+    <div class="design3" id="myBulb3"></div>
+    <button class="design13" id="myButton3">Play</button>
+    <div class="dot3"></div>
+
+    <div class="design4" id="myBulb4"></div>
+    <button class="design14" id="myButton4">Play</button>
+    <div class="dot4"></div>
+
+    <div class="design5" id="myBulb5"></div>
+    <button class="design15" id="myButton5">Play</button>
+    <div class="dot5"></div>
+
+    <div class="design6" id="myBulb6"></div>
+    <button class="design16" id="myButton6">Play</button>
+    <div class="dot6"></div>
+
+    <div class="design7" id="myBulb7"></div>
+    <button class="design17" id="myButton7">Play</button>
+    <div class="dot7"></div>
+
+    <div class="design8" id="myBulb8"></div>
+    <button class="design18" id="myButton8">Play</button>
+    <div class="dot8"></div>
+
+    </div>
+
+<div class="aligns">
+
+    <div class="quest1" id="question1">
+        <h3  style="margin-top:-50px; font-family: arial; font-weight: bold; background-color: #1B1B1B;">Complete The HTML Code</h3>
+        <br>
+      &lt;!DOCTYPE html&gt;<br>
+      &lt;html&gt;<br>
+      <input class="inputs" id="answ1"><br>
+         &nbsp; &lt;title&gt;Page Title&lt;/title&gt;<br>
+      &lt;/head&gt;<br>
+      <input class="inputs" id="answ2"><br>
+      <br>
+      &nbsp;&nbsp;&lt;h1&gt;This is a Heading&lt;/h1&gt;<br>
+      &nbsp;&nbsp;&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
+      &lt;/body&gt;<br>
+      <input class="inputs" id="answ3"><br>
+      <br>
+        <button class="buttons" onclick=" check1 ();">Submit</button>
+        <button class="buttons" id="Exit1">back</button>
+    </div>
+
+    <div class="quest2" id="question2">
+          <h3>HTML Element Identification:</h3><br>
+          <label>Identify the HTML element used to insert the largest heading?</label><br>
+          <input class="inputs" id="answ4"> <br>
+          <label>Which HTML element is used to make a paragraph bold?</label>
+          </label><br>
+          <input class="inputs" id="answ5"> <br>
+          <label>Identify the HTML element used to create a clickable link?</label><br>
+          <input class="inputs" id="answ6"> <br>
+          <label>Which HTML element is used to define a table row?</label><br>
+          <input class="inputs" id="answ7"> <br>
+          <label>Name the HTML element that represents a list item in an ordered list?</label><br>
+          <input class="inputs" id="answ8"> <br>
+          <button class="buttons" onclick="check2();">Submit</button>
+          <button class="buttons" id="Exit2">back</button>
+    </div>
+    
+    <div class="quest3" id="question3">
+        <h3>CSS Property Identification:</h3><br>
+        <label>Name the CSS property used to align a text?</label><br>
+        <input class="inputs" id="answ9"> <br>
+        <label>What CSS property is used to create a border around an element?</label><br>
+        <input class="inputs" id="answ10"> <br>
+        <label>Identify the CSS property used to change the color of text:</label><br>
+        <input class="inputs" id="answ11"> <br>
+        <label>Which CSS property is used to set the background color of an element:</label><br>
+        <input class="inputs" id="answ12"> <br>
+        <label>Name the CSS property that control the space outside the of an element.</label><br>
+        <input class="inputs" id="answ13"> <br>
+        <button class="buttons" onclick="check3();">Submit</button>
+        <button class="buttons" id="Exit3">back</button>
+  </div>
+
+
+  <div class="quest4" id="question4">
+      <h3>HTML and CSS Integration Identification:</h3><br>
+      <label>Identify the HTML tag used to link an internal CSS stylesheet?</label><br>
+      <input class="inputs" id="answ14"> <br>
+      <label>Which CSS property is commonly used to create rounded corners on elements?</label><br>
+      <input class="inputs" id="answ15"> <br>
+      <label>What HTML tag is used to embed an image in a webpage?</label><br>
+      <input class="inputs" id="answ16"> <br>
+      <label>Identify the CSS property used to control the transparency of an element.?</label><br>
+      <input class="inputs" id="answ17"> <br>
+      <label>What is the HTML tag used to create a table?</label><br>
+      <input class="inputs" id="answ18"> <br>
+      <button class="buttons" onclick="check4(); ">Submit</button>
+      <button class="buttons" id="Exit4">back</button>
+</div>
+
+  <div class="quest5" id="question5">
+    <h3  style="margin-top:-50px; font-family: arial; font-weight: bold; background-color: #1B1B1B; text-align: center;">Complete The CSS Code</h3><br>
+    <p>body {</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<input class="inputs" id="answ19">-color: yellow;</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<input class="inputs" id="answ20">: beige ;</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;font-<input class="inputs" id="answ21">: Arial, sans-serif;</p>
+      <p>}</p><br>
+    <button class="buttons" onclick="check5();">Submit</button>
+    <button class="buttons" id="Exit5">back</button>
+
+  </div>
+
+
+  <div class="quest6" id="question6">
+    <h3  style="margin-top:-50px; font-family: arial; font-weight: bold; background-color: #1B1B1B; text-align: center;">Complete The JavaScript Code</h3><br>
+      <p>var num1 = <input class="inputs" id="answ22">('enter a value') ;</p>
+      <p>var num2 = 5 ;</p>
+      <br>
+      <p>var total = num1 + num2;</p>
+      <br>
+      <p><input class="inputs" id="answ23">.write<B>(</B>'total of num1 and num2:' + <input class="inputs" id="answ24"><b>)</b></p>
+      <br>
+      <button class="buttons" onclick=" check6() ">Submit</button>
+      <button class="buttons" id="Exit6">back</button>
+  </div>
+
+  
+  <div class="quest7" id="question7">
+      <label for="">What keyword is used to declare a variable in JavaScript?</label><br>  
+      <input class="inputs" id="answ25"><br>
+      <label for="">Identify the operator used for addition in JavaScript?</label><br>
+      <input class="inputs" id="answ26"><br>
+      <label for="">What keyword is used to define a function in JavaScript?</label><br>
+      <input class="inputs" id="answ27"><br>
+      <label for="">What keyword is used to define a constant variable in JavaScript?</label><br>
+      <input class="inputs" id="answ28"><br>
+      <label for="">Name the method used to check if a variable is undefined in JavaScript?</label><br>
+      <input class="inputs" id="answ29"><br>
+      <button class="buttons" onclick="check7(); ">Submit</button>
+      <button class="buttons" id="Exit7">back</button>
+  </div>
+
+
+  <div class="quest8" id="question8">
+      <p>Identify the method used to add a new element to the end of an array in JavaScript.</p>
+      <input class="inputs" id="answ30"><br>
+      <p>Name the function used to print output to the console in JavaScript.</p>
+      <input class="inputs" id="answ31"><br>
+      <p>Name the HTML element used to display a video on a webpage.</p>
+      <input class="inputs" id="answ32"><br>
+      <p>What HTML tag is used to create a line break?</p>
+      <input class="inputs" id="answ33"><br>
+      <p>The property in CSS used to set to add shadows to text</p>
+      <input class="inputs" id="answ34"><br>
+      <button class="buttons" onclick="check8()">Submit</button>
+      <button class="buttons" id="Exit8">back</button>
+  </div>
+
+  <div class="interact" id="response">
+    <p id="pd"></p>
+    <p id="ps"></p>
+    <button class="buttons" id="Exit">back</button>
+  </div>  
+
+  <div class="ews" id="pf">
+    <p>You Already Answer</p>
+    <button class="buttons" id="Last">back</button>
+  </div>
+
+  <div class="receipt">
+  </div>
+
+</div>
+
+    <script>
+
+    let al = document.getElementById('pf')
+    let tp = document.getElementById('Last')
+    let reload = document.getElementById('reset')
+
+    reload.addEventListener("click", event => {
+      location.reload();
+    });
+
+
+    tp.addEventListener("click", event => {
+      al.style.display = "none"
+    });
+
+    let log = document.getElementById('entern')
+    let logs = document.getElementById('form1')
+    let logout = document.getElementById('exitlog')
+
+    function subs() {
+      let name = document.getElementById('namel').value;
+      let name1 = document.querySelector('.cred1').
+      innerHTML = name ;
+      logs.style.display = "none";
+    }  
+
+    logout.addEventListener("click", event => {
+      logs.style.display = "none";
+    });
+
+    log.addEventListener("click", event => {
+      logs.style.display = "block";
+    });
+
+
+    let bulb = document.getElementById('myBulb');
+    let button = document.getElementById('myButton');
+    let quest = document.getElementById('question1');
+    let Answer = document.getElementById('Exit1');
+
+    Answer.addEventListener("click", event => {
+      quest.style.display = "none";
+    });
+
+    let buttonClicked = false; 
+    
+    button.addEventListener("click", event => {
+      if (!buttonClicked) { 
+        bulb.style.backgroundColor = "yellow";
+        bulb.style.boxShadow = "0 0 15px 6px lightyellow";
+        quest.style.display = "block";
+        buttonClicked = true; 
+      } else if (buttonClicked === true) {
+        al.style.display = "block"
+      }
+    });
+
+
+    let bulb1 = document.getElementById('myBulb2');
+    let button1 = document.getElementById('myButton2');
+    let quest1 = document.getElementById('question2');
+    let Answer1 = document.getElementById('Exit2');
+
+    Answer1.addEventListener("click", event => {
+      quest1.style.display = "none";
+    });
+
+    let buttonClicked2 = false; 
+    button1.addEventListener("click", event => {
+      if (!buttonClicked2) {
+        bulb1.style.backgroundColor = "yellow";
+        bulb1.style.boxShadow = "0 0 15px 6px lightyellow";
+        quest1.style.display = "block";
+        buttonClicked2 = true;
+      } else if (buttonClicked2 === true) {
+        al.style.display = "block"
+      }
+    });
+
+    let bulb2 = document.getElementById('myBulb3');
+    let button2 = document.getElementById('myButton3');
+    let quest2 = document.getElementById('question3');
+    let Answer2 = document.getElementById('Exit3');
+
+    Answer2.addEventListener("click", event => {
+      quest2.style.display = "none";
+    });
+
+    let buttonClicked3 = false;
+    button2.addEventListener("click", event => {
+      if (!buttonClicked3){
+        bulb2.style.backgroundColor = "yellow"; 
+        bulb2.style.boxShadow = "0 0 15px 6px lightyellow";
+        quest2.style.display = "block";
+        buttonClicked3 = true;
+      }
+      else if (buttonClicked3 === true) {
+        al.style.display = "block"
+      }
+    });
+
+
+    let bulb3 = document.getElementById('myBulb4');
+    let button3 = document.getElementById('myButton4');
+    let quest3 = document.getElementById('question4');
+    let Answer3 = document.getElementById('Exit4');
+
+    Answer3.addEventListener("click", event => {
+      quest3.style.display = "none";
+    });
+
+    let buttonClicked4 = false; 
+
+  button3.addEventListener("click", event => { 
+    if (!buttonClicked4){ 
+      bulb3.style.backgroundColor = "yellow"; 
+      bulb3.style.boxShadow = "0 0 15px 6px lightyellow"; 
+      quest3.style.display = "block"; 
+      buttonClicked4 = true; 
+    } 
+    else if (buttonClicked4 === true) {
+      al.style.display = "block"
+    }
+});
+
+
+
+    let bulb4 = document.getElementById('myBulb5');
+    let button4 = document.getElementById('myButton5');
+    let quest4 = document.getElementById('question5');
+    let Answer4 = document.getElementById('Exit5');
+
+    Answer4.addEventListener("click", event => {
+      quest4.style.display = "none";
+    });
+
+  let buttonClicked5 = false;
+    button4.addEventListener("click", event => {
+    if (!buttonClicked5){ 
+      bulb4.style.backgroundColor = "yellow";
+      bulb4.style.boxShadow = "0 0 15px 6px lightyellow";
+      quest4.style.display = "block";
+      buttonClicked5 = true;
+    }  
+    else if (buttonClicked5 === true) {
+      al.style.display = "block"
+    }
+  });
+
+
+    let bulb5 = document.getElementById('myBulb6');
+    let button5 = document.getElementById('myButton6');
+    let quest5 = document.getElementById('question6');
+    let Answer5 = document.getElementById('Exit6');
+
+    Answer5.addEventListener("click", event => {
+      quest5.style.display = "none";
+    });
+
+    let buttonClicked6 = false;
+    button5.addEventListener("click", event => {
+      if (!buttonClicked6) {
+      bulb5.style.backgroundColor = "yellow";
+      bulb5.style.boxShadow = "0 0 15px 6px lightyellow";
+      quest5.style.display = "block";
+      buttonClicked6 = true;
+      }
+      else if (buttonClicked6 === true) {
+        al.style.display = "block"
+    }
+    });
+
+
+    let bulb6 = document.getElementById('myBulb7');
+    let button6 = document.getElementById('myButton7');
+    let quest6 = document.getElementById('question7');
+    let Answer6 = document.getElementById('Exit7');
+
+    Answer6.addEventListener("click", event => {
+      quest6.style.display = "none";
+    });
+
+    let buttonClicked7 = false;
+    button6.addEventListener("click", event => {
+    if(!buttonClicked7){
+      bulb6.style.backgroundColor = "yellow";
+      bulb6.style.boxShadow = "0 0 15px 6px lightyellow";
+      quest6.style.display = "block";
+      buttonClicked7 = true ;
+     } else if (buttonClicked7 === true) {
+        al.style.display = "block"
+    }
+    });
+
+
+    let bulb7 = document.getElementById('myBulb8');
+    let button7 = document.getElementById('myButton8');
+    let quest7 = document.getElementById('question8');
+    let Answer7 = document.getElementById('Exit8');
+
+    Answer7.addEventListener("click", event => {
+      quest7.style.display = "none";
+    });
+
+    let buttonClicked8 = false ;
+    button7.addEventListener("click", event => {
+      if (!buttonClicked8){
+      bulb7.style.backgroundColor = "yellow";
+      bulb7.style.boxShadow = "0 0 15px 6px lightyellow";
+      quest7.style.display = "block";
+      buttonClicked8 = true ;
+    }
+    else if (buttonClicked8) {
+      al.style.display = "block"
+    }
+    });
+
+
+    var score1 = 0;
+    let ev = document.getElementById('response')
+    let ep = document.getElementById('ps')
+    let ed = document.getElementById('pd')
+    let exits = document.getElementById('Exit')
+
+    function check1() {
+      let testq1 = document.getElementById('answ1').value.toLowerCase();
+      let testq2 = document.getElementById('answ2').value.toLowerCase();
+      let testq3 = document.getElementById('answ3').value.toLowerCase();
+      let name = document.getElementById('namel').value;
+      var tem = 0 ;
+
+      if (testq1 === '<head>') {
+        score1 += 1; 
+        tem += 1; 
+        testq1 = 'Correct'
+      }
+
+      if (testq3 === '</html>') { 
+        score1 += 1;
+        tem += 1; 
+        testq3 = 'Correct'
+      }
+
+      if (testq2 === '<body>') {
+        score1 += 1;
+        tem += 1; 
+        testq2 = 'Correct'
+      }
+
+      ed.innerHTML = `
+      <h4>ANSWERS:</h4><br>
+      Correct Answer: &lt;head&gt; <br> You Answer Is: ${testq1} <br> <br>
+      Correct Answer: &lt;body&gt; <br> You Answer Is: ${testq3} <br> <br>
+      Correct Answer: &lt;html/&gt; <br> You Answer Is: ${testq2} <br> <br>
+      <p>${name}</p>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+      quest.style.display = "none";
+    }
+
+    exits.addEventListener("click", event => {
+      ev.style.display = "none"
+    })
+
+    function check2 (){
+      let testq4 = document.getElementById('answ4').value.toLowerCase();
+      let testq5 = document.getElementById('answ5').value.toLowerCase();
+      let testq6 = document.getElementById('answ6').value.toLowerCase();
+      let testq7 = document.getElementById('answ7').value.toLowerCase();
+      let testq8 = document.getElementById('answ8').value.toLowerCase();
+      var tem = 0 ;
+
+      quest1.style.display = "none";
+
+      if (testq4 === '<h1>' ){
+        score1 += 1;
+        tem += 1;
+        testq4 = 'Correct';
+      }
+
+      if (testq5 === '<b>' ){
+        score1 += 1;
+        tem += 1;
+        testq5 = 'Correct';
+      }
+
+      if (testq6 === '<a>' ){
+        score1 += 1;
+        tem += 1;
+        testq6 = 'Correct';
+      }
+
+      if (testq7 === '<tr>' ){
+        score1 += 1;
+        tem += 1;
+        testq7 = 'Correct';
+      }
+
+      if (testq8 === '<li>' ){
+        score1 += 1;
+        tem += 1;
+        testq8 = 'Correct';
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer: &lt;h1&gt; <br> You Answer Is: ${testq4} <br> <br>
+      Correct Answer: &lt;b&gt; <br> You Answer Is: ${testq5} <br> <br>
+      Correct Answer: &lt;a&gt; <br> You Answer Is: ${testq6} <br> <br>
+      Correct Answer: &lt;tr&gt; <br> You Answer Is: ${testq7} <br> <br>
+      Correct Answer:  &lt;li&gt; <br> You Answer Is: ${testq8} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+
+    function check3 (){
+      let testq9 = document.getElementById('answ9').value.toLowerCase();
+      let testq10 = document.getElementById('answ10').value.toLowerCase();
+      let testq11 = document.getElementById('answ11').value.toLowerCase();
+      let testq12 = document.getElementById('answ12').value.toLowerCase();
+      let testq13 = document.getElementById('answ13').value.toLowerCase();
+      var tem = 0 ;
+      quest2.style.display = "none";
+
+      if (testq9 === 'text-align' || testq9 === 'text-align:'){
+        score1 += 1;
+        tem += 1;
+        testq9 = 'Correct';
+      }
+
+      if (testq10 === 'border' || testq10 === 'border:'){
+        score1 += 1;
+        tem += 1;
+        testq10 = 'Correct';
+      }
+
+      if (testq11 === 'color' || testq11 === 'color:'){
+        score1 += 1; 
+        tem += 1; 
+        testq11 = 'Correct';
+      }
+
+      if (testq12 === 'background-color' || testq12 === 'background-color:')  {
+        score1 += 1;
+        tem += 1;
+        testq12 = 'Correct';
+      }
+
+      if (testq13 === 'margin' || testq13 === 'margin:'){
+        score1 += 1;
+        tem += 1;
+        testq13= 'Correct';
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer: text-align <br> You Answer Is: ${testq9} <br> <br>
+      Correct Answer: border <br> You Answer Is: ${testq10} <br> <br>
+      Correct Answer: color <br> You Answer Is: ${testq11} <br> <br>
+      Correct Answer: background-color <br> You Answer Is: ${testq12} <br> <br>
+      Correct Answer:  margin <br> You Answer Is: ${testq13} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+    function check4 (){
+      let testq14 = document.getElementById('answ14').value.toLowerCase();
+      let testq15 = document.getElementById('answ15').value.toLowerCase();
+      let testq16 = document.getElementById('answ16').value.toLowerCase();
+      let testq17 = document.getElementById('answ17').value.toLowerCase();
+      let testq18 = document.getElementById('answ18').value.toLowerCase();
+      var tem = 0;
+      quest3.style.display = "none";
+
+      if (testq14 === '<style>' ){
+        score1 += 1;
+        tem += 1;
+        testq14 = 'Correct'
+      }
+
+      if (testq15 === 'border-radius' ){
+        score1 += 1;
+        tem += 1;
+        testq15 = 'Correct'
+      }
+
+      if (testq16 === '<img>' ){
+        score1 += 1;
+        tem += 1;
+        testq16 = 'Correct'
+      } 
+
+      if (testq17 === 'opacity' ){
+        score1 += 1;
+        tem += 1;
+        testq17 = 'Correct'
+      }
+
+      if (testq18 === '<table>' ){
+        score1 += 1;
+        tem += 1;
+        testq18 = 'Correct'
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer:  &lt;style&gt <br> You Answer Is: ${testq14} <br> <br>
+      Correct Answer: border-radius <br> You Answer Is: ${testq15} <br> <br>
+      Correct Answer: &lt;img&gt <br> You Answer Is: ${testq16} <br> <br>
+      Correct Answer: opacity <br> You Answer Is: ${testq17} <br> <br>
+      Correct Answer:  &lt;table&gt <br> You Answer Is: ${testq18} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+    function check5 (){
+      let testq19 = document.getElementById('answ19').value.toLowerCase();
+      let testq20 = document.getElementById('answ20').value.toLowerCase();
+      let testq21 = document.getElementById('answ21').value.toLowerCase();
+      var tem = 0;
+      quest4.style.display = "none";
+
+      if (testq19 === 'background' ){
+        score1 += 1;
+        tem += 1;
+        testq19 = 'Correct'
+      }
+
+      if (testq20 === 'color' ){
+        score1 += 1;
+        tem += 1;
+        testq20 = 'Correct'
+      }
+
+      if (testq21 === 'family' ){
+        score1 += 1;
+        tem += 1;
+        testq21 = 'Correct'
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer:  background <br> You Answer Is: ${testq19} <br> <br>
+      Correct Answer: color <br> You Answer Is: ${testq20} <br> <br>
+      Correct Answer: family <br> You Answer Is: ${testq21} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+    function check6 (){
+      let testq22 = document.getElementById('answ22').value.toLowerCase();
+      let testq23 = document.getElementById('answ23').value.toLowerCase();
+      let testq24 = document.getElementById('answ24').value.toLowerCase();
+      var tem = 0;
+      quest5.style.display = "none";
+
+      if (testq22 === 'prompt' ){
+        score1 += 1;
+        tem += 1;
+        testq22 = 'Correct'
+      }
+
+      if (testq23 === 'document' ){
+        score1 += 1;
+        tem += 1;
+        testq23 = 'Correct'
+      }
+
+      if (testq24   === 'total' ){
+        score1 += 1;
+        tem += 1;
+        testq24 = 'Correct'
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer:  prompt <br> You Answer Is: ${testq22} <br> <br>
+      Correct Answer: document <br> You Answer Is: ${testq23} <br> <br>
+      Correct Answer: total <br> You Answer Is: ${testq24} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+    function check7() {
+      let testq25 = document.getElementById('answ25').value.toLowerCase();
+      let testq26 = document.getElementById('answ26').value.toLowerCase();
+      let testq27 = document.getElementById('answ27').value.toLowerCase();
+      let testq28 = document.getElementById('answ28').value.toLowerCase();
+      let testq29 = document.getElementById('answ29').value.toLowerCase();
+      var tem = 0;
+      quest6.style.display = "none";
+
+      if (testq25 === 'var' || testq25 === 'var =' ){
+        score1 += 1;
+        tem += 1;
+        testq25 = 'Correct'
+      }
+
+      if (testq26 === '+' ){
+        score1 += 1;
+        tem += 1;
+        testq26 = 'Correct'
+      }
+
+      if (testq27   === 'function' ){
+        score1 += 1;
+        tem += 1;
+        testq27 = 'Correct'
+      }
+
+      if (testq28 === 'const' || testq28 === 'const =' ){
+        score1 += 1;
+        tem += 1;
+        testq28 = 'Correct'
+      }
+
+      if (testq29   === 'typeof' ){
+        score1 += 1;
+        tem += 1;
+        testq29 = 'Correct'
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer:  var <br> You Answer Is: ${testq25} <br> <br>
+      Correct Answer: + <br> You Answer Is: ${testq26} <br> <br>
+      Correct Answer: function <br> You Answer Is: ${testq27} <br> <br>
+      Correct Answer: const <br> You Answer Is: ${testq28} <br> <br>
+      Correct Answer:  typeof <br> You Answer Is: ${testq29} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+
+    function check8() {
+      let testq30 = document.getElementById('answ30').value.toLowerCase();
+      let testq31 = document.getElementById('answ31').value.toLowerCase();
+      let testq32 = document.getElementById('answ32').value.toLowerCase();
+      let testq33 = document.getElementById('answ33').value.toLowerCase();
+      let testq34 = document.getElementById('answ34').value.toLowerCase();
+      var tem = 0;
+      quest7.style.display = "none";
+
+      if (testq30 === 'push()' || testq30 === '.push()'){
+        score1 += 1;
+        tem += 1;
+        testq30 = 'Correct'
+      }
+
+      if (testq31 === 'console.log()' || testq31 === 'console.log'){
+        score1 += 1;
+        tem += 1;
+        testq31 = 'Correct'
+      }
+
+      if (testq32   === '<video>' ){
+        score1 += 1;
+        tem += 1;
+        testq32 = 'Correct'
+      }
+
+      if (testq33 === '<br>' ){
+        score1 += 1;
+        tem += 1;
+        testq33 = 'Correct'
+      }
+
+      if (testq34   === 'text-shadow' ){
+        score1 += 1;
+        tem += 1;
+        testq34 = 'Correct'
+      }
+
+      ed.innerHTML = `<h4>ANSWERS:</h4><br>
+      Correct Answer:  push() <br> You Answer Is: ${testq30} <br> <br>
+      Correct Answer: console.log <br> You Answer Is: ${testq31} <br> <br>
+      Correct Answer: &lt;video&gt; <br> You Answer Is: ${testq32} <br> <br>
+      Correct Answer: &lt;br&gt; <br> You Answer Is: ${testq33} <br> <br>
+      Correct Answer:  text-shadow <br> You Answer Is: ${testq34} <br> <br>
+      `
+      ev.style.display = "block"
+      ep.innerHTML = `You Scored: ${tem}`
+    }
+
+    let finals = document.getElementById('final')
+    let finalD = document.getElementById('receipt')
+
+    finals.addEventListener("click", event => {
+      finalD.style.display = "block"
+    });
+
+    </script>
+</body>
+</html>

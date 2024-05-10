@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    position: fixed; 
+    top: 38%; 
+    left: 55%; 
+    font-size: 100px; 
+    font-family: monospace; 
+    font-weight: bold; 
+    color: #dbe1e3; 
+    text-shadow: 2px 2px 8px yellow; 
+    animation-name: dendi; 
+    animation-duration: 4s; 
+    animation-timing-function: ease-in-out; 
+}
+
+@keyframes dendi {
+    from {
+        left: 10%;
+    }
+    to {
+        left: 55%;
+    }
+}
+
+.hide {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1B1B1B;
+    border: 5px solid #9F9689;
+    border-radius: 10px;
+    z-index: 4;
+    padding: 100px 100px;
+    box-shadow: 3px 3px 20px white;
+    font-size: x-large;
+    color: #dbe1e3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1B1B1B;
+    border: 5px solid #9F9689;
+    border-radius: 10px;
+    z-index: 4;
+    padding: 100px 100px;
+    box-shadow: 3px 3px 20px white;
+    font-size: x-large;
+    color: #dbe1e3;
+}
+
+.una {
+    display: grid;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #dbe1e3;
+    border: 10px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    padding: 80px 180px;
+    box-shadow: 3px 3px 20px yellow;
+    font-size: large;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    z-index: 2;
+}
+
+.una p {
+    color: black;
+    position: relative;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+
+.baba {
+    position: fixed;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 180px 200px;
+    background-color: #757575;
+    font-size: large;
+    border: 10px solid black;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    z-index: 1;
+}
+
+
+.buttons {
+    z-index: 2;
+    padding: 50px 150px;
+    margin-top: 10px ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    border: 8px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #434343 0%, black 100%);
+    background-size: 300% 300%;
+    animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    } 
+
+    100% {
+        background-position: 0 50% ;
+    }
+}
+
+
+.design1 {
+    border: 3px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    background-color:#dbe1e3;
+    color: #4a5c6a;
+    margin-top: 140px;
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+    z-index: 3;
+    position: inherit;
+}
+
+.design11 {
+    padding: 20px 20px;
+    margin-top: 230px; 
+    margin-bottom: 150px;
+    margin-left: 165px;
+    background-color: #757575;
+    font-size: large;
+    border: 3px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: inherit;
+}
+
+.dot1 {
+    display: block;
+    margin-top: 270px; 
+    margin-left: 179px;;
+    padding: 5px 5px;
+    height: 11px;
+    width: 18px;
+    border: 3px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(63, 63, 61);
+    z-index: 1;
+    position: inherit;
+}
+
+.design2 {
+    border: 3px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    background-color:#dbe1e3;
+    color: #4a5c6a;
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+    z-index: 3;
+    position: inherit;
+}
+
+.design12 {
+    padding: 20px 20px;
+    margin-top: 390px; 
+    margin-bottom: 150px;
+    margin-left: 165px;
+    background-color: #757575;
+    font-size: large;
+    border: 3px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: inherit;
+}
+
+.dot2 {
+    display: block;
+    margin-top: 430px; 
+    margin-left: 179px;;
+    padding: 5px 5px;
+    height: 11px;
+    width: 18px;
+    border: 3px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(63, 63, 61);
+    z-index: 1;
+    position: inherit;
+}
+
+.design3 {
+    border: 3px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    background-color:#dbe1e3;
+    color: #4a5c6a;
+    margin-top: 460px;
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+    z-index: 3;
+    position: inherit;
+}
+
+.design13 {
+    padding: 20px 20px;
+    margin-top: 550px; 
+    margin-bottom: 150px;
+    margin-left: 165px;
+    background-color: #757575;
+    font-size: large;
+    border: 3px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: inherit;
+}
+
+.dot3 {
+    display: block;
+    margin-top: 590px; 
+    margin-left: 179px;;
+    padding: 5px 5px;
+    height: 11px;
+    width: 18px;
+    border: 3px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(63, 63, 61);
+    z-index: 1;
+    position: inherit;
+}
+
+.design4 {
+    border: 3px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    background-color:#dbe1e3;
+    color: #4a5c6a;
+    margin-top: 140px;
+    width: 100px;
+    height: 100px;
+    margin-left: 560px;
+    z-index: 3;
+    position: inherit;
+}
+
+.design14 {
+    padding: 20px 20px;
+    margin-top: 230px; 
+    margin-bottom: 150px;
+    margin-left: 585px;
+    background-color: #757575;
+    font-size: large;
+    border: 3px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: inherit;
+}
+
+.dot4 {
+    display: block;
+    margin-top: 270px; 
+    margin-left: 599px;;
+    padding: 5px 5px;
+    height: 11px;
+    width: 18px;
+    border: 3px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(63, 63, 61);
+    z-index: 1;
+    position: inherit;
+}
+
+.design5 {
+    border: 3px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    background-color:#dbe1e3;
+    color: #4a5c6a;
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+    margin-left: 560px;
+    z-index: 3;
+    position: inherit;
+}
+
+.design15 {
+    padding: 20px 20px;
+    margin-top: 390px; 
+    margin-bottom: 150px;
+    margin-left: 585px;
+    background-color: #757575;
+    font-size: large;
+    border: 3px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: inherit;
+}
+
+.dot5 {
+    display: block;
+    margin-top: 430px; 
+    margin-left: 599px;;
+    padding: 5px 5px;
+    height: 11px;
+    width: 18px;
+    border: 3px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(63, 63, 61);
+    z-index: 1;
+    position: inherit;
+}
+
+.design6 {
+    border: 3px solid black;
+    border-radius: 50% 50% 35% 35% / 45% 45% 55% 55%;
+    background-color:#dbe1e3;
+    color: #4a5c6a;
+    margin-top: 460px;
+    width: 100px;
+    height: 100px;
+    margin-left: 560px;
+    z-index: 3;
+    position: inherit;
+}
+
+.design16 {
+    padding: 20px 20px;
+    margin-top: 550px; 
+    margin-bottom: 150px;
+    margin-left: 585px;
+    background-color: #757575;
+    font-size: large;
+    border: 3px solid black;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: inherit;
+}
+
+.dot6 {
+    display: block;
+    margin-top: 590px; 
+    margin-left: 599px;;
+    padding: 5px 5px;
+    height: 11px;
+    width: 18px;
+    border: 3px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(63, 63, 61);
+    z-index: 1;
+    position: inherit;
+}

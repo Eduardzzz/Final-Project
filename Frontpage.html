@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hook.css">
+</head>
+<body>
+    <div class="container"></div>
+        <a href="Second.html"><h1>Light Me Up!</h1></a>
+    <div class="una" id="main">
+        <br>
+        <a href="Second.html"><button class="buttons" id="choose1">Play Now!</button></a><br>
+        <button class="buttons" id="choose2">About</button><br>
+        <button class="buttons" id="choose3">Credits</button><br>
+        <div class="design1" id="bulb1"></div>
+        <div class="design11"></div>
+        <div class="dot1"></div>
+        <div class="design2" id="bulb2"></div>
+        <div class="design12"></div>
+        <div class="dot2"></div>
+        <div class="design3" id="bulb3"></div>
+        <div class="design13"></div>
+        <div class="dot3"></div>
+        <div class="design4"></div>
+        <div class="design13"></div>
+        <div class="dot3"></div>
+        <div class="design4" id="bulb4"></div>
+        <div class="design14"></div>
+        <div class="dot4"></div>
+        <div class="design5" id="bulb5"></div>
+        <div class="design15"></div>
+        <div class="dot5"></div>
+        <div class="design6" id="bulb6"></div>
+        <div class="design16"></div>
+        <div class="dot6"></div>
+    </div>
+        <div class="baba" id="clickable"></div>
+
+        <div class="hide" id="pop">
+            
+        <h3>How To Play</h3>
+        <br>
+        <p><b>Click on the Light Bulb:</b> To begin your quest for knowledge, simply click on the light bulb icon. This action triggers the appearance of a question, prompting you to delve into various topics.</p><br>
+
+        <p><b>Answer the Question:</b> Read the question carefully and reflect on your knowledge. Once you've formulated your answer, you can either type it directly into the pop-up or simply ponder it in your mind.</p><br>
+        <p><b>Learn and Explore:</b> After submitting your answer, take a moment to learn more about the topic at hand. We provide detailed explanations and additional resources to deepen your understanding and encourage further exploration.</p><br>
+
+        <p><b>Repeat and Enjoy:</b> The fun doesn't stop with one question! Feel free to click on the light bulb again to reveal a new question. With a diverse array of topics and challenges, there's always something new to discover and learn.</p>
+        <span class="x" id="Exit"><button class="buttons" style="padding: 20px 40px ;">Back</button></span>
+        </div>
+        
+
+        <div class="hide" id="pop2">
+            
+            <h3>Credits</h3>
+            <br>
+                <p><b>Eduard John T. Loreto</b></p>
+                <p><b>Andrey T. Alonzo</b></p>
+                <p><b>Andrey T. Alonzo</b></p>
+                <p><b>Kenshin Rui V. Doroja</b></p>
+                <p><b>Grace Eusebio</b></p>
+                <br>
+            <span class="x" id="Exit2"><button class="buttons" style="padding: 20px 40px ;">Back</button></span>
+       </div>
+    <script>
+
+        let first = document.getElementById('choose1')
+        let bulb1 = document.getElementById('bulb1')
+        let bulb4 = document.getElementById('bulb4')
+        let second = document.getElementById('choose2')
+        let bulb2 = document.getElementById('bulb2')
+        let bulb5 = document.getElementById('bulb5')
+        let back = document.getElementById('Exit')
+        let after2 = document.getElementById('pop2')
+        let after = document.getElementById('pop')
+        let third = document.getElementById('choose3')
+        let bulb3 = document.getElementById('bulb3')
+        let bulb6 = document.getElementById('bulb6')
+        let back2 = document.getElementById('Exit2')
+        let pindot =document.getElementById('clickable')
+        let front = document.getElementById('main')
+
+  
+    pindot.addEventListener("click", event => {
+        front.style.backgroundColor = "lightyellow"
+    })
+    
+    back.addEventListener("click", event => {
+        after.style.display = "none"
+    });
+
+    back2.addEventListener("click", event => {
+        after2.style.display = "none"
+    })
+
+    second.addEventListener("click", event => {
+        after.style.display = "block"
+    });
+
+    third.addEventListener("click", event => {
+        after2.style.display = "block"
+    });
+
+
+    second.addEventListener("mouseover", event => {
+        bulb2.style.backgroundColor = "yellow";
+        bulb5.style.backgroundColor = "yellow";
+    });
+
+    second.addEventListener("mouseout", event => {
+        bulb2.style.backgroundColor = "#dbe1e3";
+        bulb5.style.backgroundColor = "#dbe1e3";
+    });
+
+    second.addEventListener("click", event => {
+        bulb2.style.backgroundColor = "yellow";
+        bulb5.style.backgroundColor = "yellow";
+    });
+
+
+
+    third.addEventListener("mouseover", event => {
+        bulb3.style.backgroundColor = "yellow";
+        bulb6.style.backgroundColor = "yellow";
+    });
+
+    third.addEventListener("mouseout", event => {
+        bulb3.style.backgroundColor = "#dbe1e3";
+        bulb6.style.backgroundColor = "#dbe1e3";
+    });
+
+    third.addEventListener("click", event => {
+        bulb3.style.backgroundColor = "yellow";
+        bulb6.style.backgroundColor = "yellow";
+    });
+
+
+
+
+
+    first.addEventListener("mouseover", event => {
+        bulb1.style.backgroundColor = "yellow";
+        bulb4.style.backgroundColor = "yellow";
+    });
+
+    first.addEventListener("mouseout", event => {
+        bulb1.style.backgroundColor = "#dbe1e3";
+        bulb4.style.backgroundColor = "#dbe1e3";
+    });
+
+    first.addEventListener("click", event => {
+        bulb1.style.backgroundColor = "yellow";
+        bulb4.style.backgroundColor = "yellow";
+    });
+
+    </script>
+</body>
+</html>
